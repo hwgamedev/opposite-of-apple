@@ -419,11 +419,19 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 22475884, guid: 3bf5ae6c7323e79488f9fc3828eb12b1, type: 2}
       propertyPath: m_AnchoredPosition.y
-      value: -185.300003
+      value: 143
       objectReference: {fileID: 0}
     - target: {fileID: 22475884, guid: 3bf5ae6c7323e79488f9fc3828eb12b1, type: 2}
       propertyPath: m_AnchoredPosition.x
-      value: -364.5
+      value: 285
+      objectReference: {fileID: 0}
+    - target: {fileID: 175886, guid: 3bf5ae6c7323e79488f9fc3828eb12b1, type: 2}
+      propertyPath: m_TagString
+      value: Untagged
+      objectReference: {fileID: 0}
+    - target: {fileID: 175884, guid: 3bf5ae6c7323e79488f9fc3828eb12b1, type: 2}
+      propertyPath: m_TagString
+      value: ScoreManager
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 3bf5ae6c7323e79488f9fc3828eb12b1, type: 2}
@@ -443,7 +451,7 @@ GameObject:
   - 114: {fileID: 1102888072}
   m_Layer: 5
   m_Name: Text
-  m_TagString: Untagged
+  m_TagString: ScoreManager
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -509,7 +517,7 @@ RectTransform:
   m_RootOrder: 0
   m_AnchorMin: {x: .5, y: .5}
   m_AnchorMax: {x: .5, y: .5}
-  m_AnchoredPosition: {x: -364.5, y: -185.300003}
+  m_AnchoredPosition: {x: 285, y: 143}
   m_SizeDelta: {x: 160, y: 30}
   m_Pivot: {x: .5, y: .5}
 --- !u!1 &1478005592
