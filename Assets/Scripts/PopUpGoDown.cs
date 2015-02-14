@@ -1,7 +1,7 @@
 ﻿using UnityEngine;
 using System.Collections;
 
-public class Apple : MonoBehaviour {
+public class PopUpGoDown : MonoBehaviour {
 
 	//distance that the apple travels to pop up
 	public float popUpDistance = 100f;
