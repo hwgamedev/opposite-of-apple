@@ -21,27 +21,27 @@ public class AppleShoot : MonoBehaviour {
 
 	void OnMouseDown() {
 
-        GameObject applechunk1 = Instantiate(chunk1, new Vector3(Random.Range(0, 1), Random.Range(0, 1), 0.0f), Quaternion.identity) as GameObject;
+        GameObject applechunk1 = Instantiate(chunk1, transform.position, Quaternion.identity) as GameObject;
         applechunk1.rigidbody2D.AddForce(Vector3.right * Random.Range(-50, 50));
         applechunk1.rigidbody2D.AddForce(Vector3.up * Random.Range(100, 400));
 
-        GameObject applechunk2 = Instantiate(chunk2, new Vector3(Random.Range(0, 1), Random.Range(0, 1), 0.0f), Quaternion.identity) as GameObject;
+		GameObject applechunk2 = Instantiate(chunk2, transform.position, Quaternion.identity) as GameObject;
         applechunk2.rigidbody2D.AddForce(Vector3.right * Random.Range(-50, 50));
         applechunk2.rigidbody2D.AddForce(Vector3.up * Random.Range(100, 400));
 
-        GameObject applechunk3 = Instantiate(chunk3, new Vector3(Random.Range(0, 1), Random.Range(0, 1), 0.0f), Quaternion.identity) as GameObject;
+		GameObject applechunk3 = Instantiate(chunk3, transform.position, Quaternion.identity) as GameObject;
         applechunk3.rigidbody2D.AddForce(Vector3.right * Random.Range(-50, 50));
         applechunk3.rigidbody2D.AddForce(Vector3.up * Random.Range(100, 400));
 
-        GameObject applechunk4 = Instantiate(chunk4, new Vector3(Random.Range(0, 1), Random.Range(0, 1), 0.0f), Quaternion.identity) as GameObject;
+		GameObject applechunk4 = Instantiate(chunk4, transform.position, Quaternion.identity) as GameObject;
         applechunk4.rigidbody2D.AddForce(Vector3.right * Random.Range(-50, 50));
         applechunk4.rigidbody2D.AddForce(Vector3.up * Random.Range(100, 400));
 
-        GameObject applechunk5 = Instantiate(chunk5, new Vector3(Random.Range(0, 1), Random.Range(0, 1), 0.0f), Quaternion.identity) as GameObject;
+		GameObject applechunk5 = Instantiate(chunk5, transform.position, Quaternion.identity) as GameObject;
         applechunk5.rigidbody2D.AddForce(Vector3.right * Random.Range(-50, 50));
         applechunk5.rigidbody2D.AddForce(Vector3.up * Random.Range(100, 400));
 
-        GameObject applechunk6 = Instantiate(chunk6, new Vector3(Random.Range(0, 1), Random.Range(0, 1), 0.0f), Quaternion.identity) as GameObject;
+		GameObject applechunk6 = Instantiate(chunk6, transform.position, Quaternion.identity) as GameObject;
         applechunk6.rigidbody2D.AddForce(Vector3.right * Random.Range(-50, 50));
         applechunk6.rigidbody2D.AddForce(Vector3.up * Random.Range(100, 400));
 
