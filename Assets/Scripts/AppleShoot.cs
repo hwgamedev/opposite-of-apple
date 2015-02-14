@@ -9,7 +9,7 @@ public class AppleShoot : MonoBehaviour {
     public GameObject chunk5;
     public GameObject chunk6;
 
-	public ScoreManager scoreManager;
+	private ScoreManager scoreManager;
     public int scoreChange;
 
 	// Use this for initialization
