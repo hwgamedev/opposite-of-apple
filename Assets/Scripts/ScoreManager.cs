@@ -33,6 +33,6 @@ public class ScoreManager : MonoBehaviour {
 	
 	// Update is called once per frame
 	void Update () {
-		display.text = "" + score;
+		display.text = "Score: " + score;
 	}
 }

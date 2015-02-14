@@ -64,7 +64,7 @@ public class TimeManager : MonoBehaviour {
 	}
 
 	private void displayText() {
-		timeDisplay.text = "Time: " + gameTime;
+		timeDisplay.text = "Time: " + gameTime.ToString ("n2");
 		}
 
 }
