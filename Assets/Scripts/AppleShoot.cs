@@ -8,7 +8,6 @@ public class AppleShoot : MonoBehaviour {
     public GameObject chunk4;
     public GameObject chunk5;
     public GameObject chunk6;
-    public AudioClip smash;
 
 	private ScoreManager scoreManager;
 
@@ -27,7 +26,11 @@ public class AppleShoot : MonoBehaviour {
 
 	void OnMouseDown() {
 
+<<<<<<< HEAD
         audio.PlayOneShot(smash, 1.0F);
+=======
+		scoreManager.incScore (1);
+>>>>>>> 62cd10609953afd9f4b50c72d12d38b4e840b31f
 		scoreManager.incScore (scoreChange);
 
         GameObject applechunk1 = Instantiate(chunk1, transform.position, Quaternion.identity) as GameObject;
