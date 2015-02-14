@@ -4,15 +4,15 @@ using UnityEngine.UI;
 
 public class ScoreManager : MonoBehaviour {
 	
-	private int score = 10;
+	private int score = 0;
 	private Text display;
 
 	//reference for time manager
 	private TimeManager tm;
 	
 	public void incScore(int d) {
-
-		score += d;
+		if(d > 0)
+			score += d;
 		tm.incGameTime (d);
 
 		if (score < 0) {
