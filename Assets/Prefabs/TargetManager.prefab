@@ -39,7 +39,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e4f0a41f6c18ad547aa78617b2413040, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  appleTemplate: {fileID: 187930, guid: 2d5ec264c42829e41b4f1725e7c0ac95, type: 2}
+  appleTemplate1: {fileID: 187930, guid: 2d5ec264c42829e41b4f1725e7c0ac95, type: 2}
+  appleTemplate2: {fileID: 164268, guid: ecd599be27f4ab243ae73a9ca137701d, type: 2}
   flyingAppleTemplate: {fileID: 137206, guid: 0eddb3faeff952a48bf131fb8945f554, type: 2}
   burgerTemplate: {fileID: 159088, guid: a455761c7d3ea4c4aaf6b3d9aa0a8cf9, type: 2}
   flyingBurgerTemplate: {fileID: 162774, guid: 79355c5f623188d4eb4b2be585fb685b, type: 2}
