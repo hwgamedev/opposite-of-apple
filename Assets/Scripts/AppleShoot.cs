@@ -9,6 +9,8 @@ public class AppleShoot : MonoBehaviour {
     public GameObject chunk5;
     public GameObject chunk6;
 
+    public AudioClip smash;
+
 	private ScoreManager scoreManager;
 
     public int scoreChange;
@@ -25,6 +27,7 @@ public class AppleShoot : MonoBehaviour {
 	}
 
 	void OnMouseDown() {
+        AudioSource.PlayClipAtPoint(smash, transform.position);
 		scoreManager.incScore (scoreChange);
 
         GameObject applechunk1 = Instantiate(chunk1, transform.position, Quaternion.identity) as GameObject;
