@@ -1639,6 +1639,7 @@ GameObject:
   m_Component:
   - 4: {fileID: 472688}
   - 114: {fileID: 11495926}
+  - 82: {fileID: 8294430}
   m_Layer: 0
   m_Name: Background
   m_TagString: Untagged
@@ -1657,7 +1658,7 @@ Transform:
   m_LocalScale: {x: 2, y: .5, z: 1}
   m_Children: []
   m_Father: {fileID: 472688}
-  m_RootOrder: 3
+  m_RootOrder: 2
 --- !u!4 &472486
 Transform:
   m_ObjectHideFlags: 1
@@ -1826,7 +1827,7 @@ Transform:
   - {fileID: 472488}
   - {fileID: 472486}
   m_Father: {fileID: 472688}
-  m_RootOrder: 0
+  m_RootOrder: 3
 --- !u!4 &472512
 Transform:
   m_ObjectHideFlags: 1
@@ -1850,7 +1851,7 @@ Transform:
   m_LocalScale: {x: 1.5, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 472688}
-  m_RootOrder: 2
+  m_RootOrder: 1
 --- !u!4 &472516
 Transform:
   m_ObjectHideFlags: 1
@@ -1947,7 +1948,7 @@ Transform:
   - {fileID: 472684}
   - {fileID: 472686}
   m_Father: {fileID: 472688}
-  m_RootOrder: 1
+  m_RootOrder: 0
 --- !u!4 &472518
 Transform:
   m_ObjectHideFlags: 1
@@ -2978,12 +2979,70 @@ Transform:
   m_LocalPosition: {x: -.0799999982, y: .74000001, z: 0}
   m_LocalScale: {x: .5, y: .5, z: 1}
   m_Children:
-  - {fileID: 472510}
   - {fileID: 472516}
   - {fileID: 472514}
   - {fileID: 472474}
+  - {fileID: 472510}
   m_Father: {fileID: 0}
   m_RootOrder: 0
+--- !u!82 &8294430
+AudioSource:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 172688}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_audioClip: {fileID: 8300000, guid: d75df196cf39b524c9f0fabc6dbca868, type: 3}
+  m_PlayOnAwake: 1
+  m_Volume: .699999988
+  m_Pitch: 1
+  Loop: 1
+  Mute: 0
+  Priority: 128
+  DopplerLevel: 1
+  MinDistance: 1
+  MaxDistance: 500
+  Pan2D: 0
+  rolloffMode: 0
+  BypassEffects: 0
+  BypassListenerEffects: 0
+  BypassReverbZones: 0
+  rolloffCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    - time: 1
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+  panLevelCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+  spreadCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
 --- !u!114 &11495926
 MonoBehaviour:
   m_ObjectHideFlags: 1
