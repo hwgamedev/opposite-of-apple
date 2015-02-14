@@ -4,11 +4,15 @@ using UnityEngine.UI;
 
 public class ScoreManager : MonoBehaviour {
 	
-	private int score = 0;
+	private int score = 10;
 	private Text display;
 	
 	public void incScore(int d) {
 		score += d;
+
+		if (score < 0) {
+			Application.LoadLevel("Restart");
+		}
 	}
 	
 	public void resetScore() {
