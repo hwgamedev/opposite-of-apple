@@ -26,3 +26,7 @@ obj/
 ehthumbs.db
 Thumbs.db
 *.apk
+Assets/UnityVS/Editor/UnityVS.VersionSpecific.dll
+Assets/UnityVS/Editor/UnityVS.VersionSpecific.dll.meta
+UnityVS.opposite-of-apple.CSharp.csproj
+UnityVS.opposite-of-apple.sln
