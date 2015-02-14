@@ -84,6 +84,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2e7db823742ea6e409109e611e77c05e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  chunk1: {fileID: 127046, guid: 9700d8322682d2140a0a733f5b88037d, type: 2}
+  chunk2: {fileID: 192676, guid: bf230824329fcd94fa6d62c52582612e, type: 2}
+  chunk3: {fileID: 165386, guid: 4057cd0a0ab475d42a7b0cb02f538344, type: 2}
+  chunk4: {fileID: 134794, guid: 227d5ec6c6b8b1747bb5d8681b520214, type: 2}
+  chunk5: {fileID: 185036, guid: da35f4cba18e1ad44a40b84e59982fa0, type: 2}
+  chunk6: {fileID: 112072, guid: d449ca7ddf9a4164cb65f7cfdd080b73, type: 2}
 --- !u!212 &21287930
 SpriteRenderer:
   m_ObjectHideFlags: 1
