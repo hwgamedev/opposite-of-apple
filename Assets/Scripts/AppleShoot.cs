@@ -16,7 +16,7 @@ public class AppleShoot : MonoBehaviour {
 	// Use this for initialization
 	void Start () {
 		scoreManager = GameObject.FindWithTag ("ScoreManager").GetComponent<ScoreManager>();
-		rigidbody2D.AddTorque (300);
+		rigidbody2D.AddTorque (30);
 	}
 	
 	// Update is called once per frame
