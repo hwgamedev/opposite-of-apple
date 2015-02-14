@@ -50,6 +50,7 @@ public class TimeManager : MonoBehaviour {
 		}
 
 	public void incGameTime(float gameTimeIncrease) {
+		gameTimeIncrease /= 2;
 		gameTime += gameTimeIncrease*timeMultiplier;
 		GameObject timeEffectClone = (GameObject)Instantiate(timeEffectTemplate, new Vector3(transform.position.x+40, transform.position.y-10, transform.position.z), Quaternion.identity);
 		timeEffectClone.transform.parent = transform;
