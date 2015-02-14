@@ -4,26 +4,35 @@ using System.Collections;
 public class TargetSpawnManager : MonoBehaviour {
 
 	public GameObject appleTemplate;
-	public float spawnInterval;
+	public GameObject flyingAppleTemplate;
+
+
+	public float popUpSpawnInterval;
+	public float flyingSpawnInterval;
 
 
 	private GameObject[] spawnPoints;
-	private float countDown;
+	private float popUpCountDown;
 
 	// Use this for initialization
 	void Start () {
 		spawnPoints = GameObject.FindGameObjectsWithTag ("SpawnPoint");
 		//print ("No of spawnPoints: " + spawnPoints.Length);
-		countDown = spawnInterval;
+		popUpCountDown = popUpSpawnInterval;
 	}
 	
 	// Update is called once per frame
 	void Update () {
 	
-		countDown -= Time.deltaTime;
+		PopUpSpawn ();
+	}
 
-		if (countDown <= 0) {
-			countDown = spawnInterval;
+	void PopUpSpawn ()
+	{
+		popUpCountDown -= Time.deltaTime;
+		
+		if (popUpCountDown <= 0) {
+			popUpCountDown = popUpSpawnInterval;
 			int spawnPointNo = Random.Range (0,spawnPoints.Length);
 			GameObject appleClone = (GameObject) Instantiate (appleTemplate, spawnPoints[spawnPointNo].transform.position, Quaternion.identity);
 		}
