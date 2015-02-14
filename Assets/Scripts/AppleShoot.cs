@@ -9,9 +9,11 @@ public class AppleShoot : MonoBehaviour {
     public GameObject chunk5;
     public GameObject chunk6;
 
+	public ScoreManager scoreManager;
+
 	// Use this for initialization
 	void Start () {
-	
+		scoreManager = GameObject.FindWithTag ("ScoreManager").GetComponent<ScoreManager>();
 	}
 	
 	// Update is called once per frame
@@ -20,6 +22,8 @@ public class AppleShoot : MonoBehaviour {
 	}
 
 	void OnMouseDown() {
+
+		scoreManager.incScore (1);
 
         GameObject applechunk1 = Instantiate(chunk1, new Vector3(Random.Range(0, 1), Random.Range(0, 1), 0.0f), Quaternion.identity) as GameObject;
         applechunk1.rigidbody2D.AddForce(Vector3.right * Random.Range(-50, 50));
