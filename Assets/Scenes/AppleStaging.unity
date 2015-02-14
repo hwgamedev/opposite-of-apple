@@ -336,7 +336,7 @@ SpriteRenderer:
   m_LightProbeAnchor: {fileID: 0}
   m_ScaleInLightmap: 1
   m_SortingLayerID: 4097511931
-  m_SortingOrder: -1
+  m_SortingOrder: 0
   m_Sprite: {fileID: 21300000, guid: 3819ff42847ff2949953f6484488c4b4, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
 --- !u!1 &36456386
@@ -387,7 +387,7 @@ SpriteRenderer:
   m_LightProbeAnchor: {fileID: 0}
   m_ScaleInLightmap: 1
   m_SortingLayerID: 4097511931
-  m_SortingOrder: -1
+  m_SortingOrder: 0
   m_Sprite: {fileID: 21300000, guid: 93b9a42771be0714b993857205ddc111, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
 --- !u!1 &67199371
@@ -1137,6 +1137,33 @@ SpriteRenderer:
   m_SortingOrder: 0
   m_Sprite: {fileID: 21300000, guid: 3819ff42847ff2949953f6484488c4b4, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
+--- !u!1 &304900974
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 136508, guid: 718587265f9b1ed469cdd634bb99048e, type: 2}
+  m_PrefabInternal: {fileID: 972184391}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 304900975}
+  m_Layer: 0
+  m_Name: 1
+  m_TagString: FlyingSpawn
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &304900975
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 436508, guid: 718587265f9b1ed469cdd634bb99048e, type: 2}
+  m_PrefabInternal: {fileID: 972184391}
+  m_GameObject: {fileID: 304900974}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -4.42000008, y: .0599999987, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 344906794}
+  m_RootOrder: 0
 --- !u!1 &320290165
 GameObject:
   m_ObjectHideFlags: 0
@@ -1187,6 +1214,88 @@ SpriteRenderer:
   m_SortingLayerID: 4216293761
   m_SortingOrder: 0
   m_Sprite: {fileID: 21300000, guid: 464da75317949364bb694c75e5a7d861, type: 3}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+--- !u!1 &344906793
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 136506, guid: 718587265f9b1ed469cdd634bb99048e, type: 2}
+  m_PrefabInternal: {fileID: 972184391}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 344906794}
+  m_Layer: 0
+  m_Name: flying
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &344906794
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 436506, guid: 718587265f9b1ed469cdd634bb99048e, type: 2}
+  m_PrefabInternal: {fileID: 972184391}
+  m_GameObject: {fileID: 344906793}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 304900975}
+  - {fileID: 1889636040}
+  - {fileID: 1259166563}
+  - {fileID: 1372985813}
+  m_Father: {fileID: 2008375810}
+  m_RootOrder: 4
+--- !u!1 &362416226
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 126664, guid: 718587265f9b1ed469cdd634bb99048e, type: 2}
+  m_PrefabInternal: {fileID: 972184391}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 362416227}
+  - 212: {fileID: 362416228}
+  m_Layer: 12
+  m_Name: bush
+  m_TagString: SpawnPoint
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &362416227
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 426664, guid: 718587265f9b1ed469cdd634bb99048e, type: 2}
+  m_PrefabInternal: {fileID: 972184391}
+  m_GameObject: {fileID: 362416226}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 1.94000006, y: -1.65999997, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 2008375810}
+  m_RootOrder: 1
+--- !u!212 &362416228
+SpriteRenderer:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 21226664, guid: 718587265f9b1ed469cdd634bb99048e,
+    type: 2}
+  m_PrefabInternal: {fileID: 972184391}
+  m_GameObject: {fileID: 362416226}
+  m_Enabled: 1
+  m_CastShadows: 0
+  m_ReceiveShadows: 0
+  m_LightmapIndex: 255
+  m_LightmapTilingOffset: {x: 1, y: 1, z: 0, w: 0}
+  m_Materials:
+  - {fileID: 10754, guid: 0000000000000000e000000000000000, type: 0}
+  m_SubsetIndices: 
+  m_StaticBatchRoot: {fileID: 0}
+  m_UseLightProbes: 0
+  m_LightProbeAnchor: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_SortingLayerID: 4097511931
+  m_SortingOrder: 0
+  m_Sprite: {fileID: 21300000, guid: a4fb5ec51f96f724f98bfa22c230c525, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
 --- !u!1 &363400716
 GameObject:
@@ -2477,6 +2586,7 @@ GameObject:
   - 114: {fileID: 650602365}
   - 114: {fileID: 650602364}
   - 50: {fileID: 650602369}
+  - 58: {fileID: 650602370}
   m_Layer: 15
   m_Name: FlyingApple
   m_TagString: Untagged
@@ -2580,6 +2690,18 @@ Rigidbody2D:
   m_Interpolate: 0
   m_SleepingMode: 1
   m_CollisionDetection: 0
+--- !u!58 &650602370
+CircleCollider2D:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 5894720, guid: 0eddb3faeff952a48bf131fb8945f554,
+    type: 2}
+  m_PrefabInternal: {fileID: 935585701}
+  m_GameObject: {fileID: 650602363}
+  m_Enabled: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Radius: .5
+  m_Center: {x: 0, y: 0}
 --- !u!1 &653606446
 GameObject:
   m_ObjectHideFlags: 0
@@ -3922,57 +4044,6 @@ RectTransform:
   m_AnchoredPosition: {x: 285, y: 143}
   m_SizeDelta: {x: 160, y: 30}
   m_Pivot: {x: .5, y: .5}
---- !u!1 &1107972656
-GameObject:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 165678, guid: 718587265f9b1ed469cdd634bb99048e, type: 2}
-  m_PrefabInternal: {fileID: 972184391}
-  serializedVersion: 4
-  m_Component:
-  - 4: {fileID: 1107972657}
-  - 212: {fileID: 1107972658}
-  m_Layer: 12
-  m_Name: bush
-  m_TagString: SpawnPoint
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &1107972657
-Transform:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 465678, guid: 718587265f9b1ed469cdd634bb99048e, type: 2}
-  m_PrefabInternal: {fileID: 972184391}
-  m_GameObject: {fileID: 1107972656}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 1.94000006, y: -1.65999997, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children: []
-  m_Father: {fileID: 2008375810}
-  m_RootOrder: 1
---- !u!212 &1107972658
-SpriteRenderer:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 21265678, guid: 718587265f9b1ed469cdd634bb99048e,
-    type: 2}
-  m_PrefabInternal: {fileID: 972184391}
-  m_GameObject: {fileID: 1107972656}
-  m_Enabled: 1
-  m_CastShadows: 0
-  m_ReceiveShadows: 0
-  m_LightmapIndex: 255
-  m_LightmapTilingOffset: {x: 1, y: 1, z: 0, w: 0}
-  m_Materials:
-  - {fileID: 10754, guid: 0000000000000000e000000000000000, type: 0}
-  m_SubsetIndices: 
-  m_StaticBatchRoot: {fileID: 0}
-  m_UseLightProbes: 0
-  m_LightProbeAnchor: {fileID: 0}
-  m_ScaleInLightmap: 1
-  m_SortingLayerID: 4097511931
-  m_SortingOrder: 0
-  m_Sprite: {fileID: 21300000, guid: a4fb5ec51f96f724f98bfa22c230c525, type: 3}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
 --- !u!1 &1111004968
 GameObject:
   m_ObjectHideFlags: 0
@@ -4957,6 +5028,33 @@ SpriteRenderer:
   m_SortingOrder: -5
   m_Sprite: {fileID: 21300000, guid: 655951bf54c34ca4380d25f68b81042c, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
+--- !u!1 &1259166562
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 136512, guid: 718587265f9b1ed469cdd634bb99048e, type: 2}
+  m_PrefabInternal: {fileID: 972184391}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 1259166563}
+  m_Layer: 0
+  m_Name: 3
+  m_TagString: FlyingSpawn
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1259166563
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 436512, guid: 718587265f9b1ed469cdd634bb99048e, type: 2}
+  m_PrefabInternal: {fileID: 972184391}
+  m_GameObject: {fileID: 1259166562}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -4.53999996, y: 1.25, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 344906794}
+  m_RootOrder: 2
 --- !u!1 &1340293906
 GameObject:
   m_ObjectHideFlags: 0
@@ -5110,6 +5208,33 @@ SpriteRenderer:
   m_SortingOrder: 0
   m_Sprite: {fileID: 21300000, guid: 278866744692e1a469c3ba04da5dd7d3, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
+--- !u!1 &1372985812
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 136514, guid: 718587265f9b1ed469cdd634bb99048e, type: 2}
+  m_PrefabInternal: {fileID: 972184391}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 1372985813}
+  m_Layer: 0
+  m_Name: 4
+  m_TagString: FlyingSpawn
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1372985813
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 436514, guid: 718587265f9b1ed469cdd634bb99048e, type: 2}
+  m_PrefabInternal: {fileID: 972184391}
+  m_GameObject: {fileID: 1372985812}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -5.17000008, y: -1.17999995, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 344906794}
+  m_RootOrder: 3
 --- !u!1 &1374845351
 GameObject:
   m_ObjectHideFlags: 0
@@ -6362,6 +6487,7 @@ GameObject:
   - 114: {fileID: 1658241160}
   - 114: {fileID: 1658241159}
   - 50: {fileID: 1658241158}
+  - 58: {fileID: 1658241164}
   m_Layer: 15
   m_Name: FlyingApple
   m_TagString: Untagged
@@ -6465,6 +6591,18 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 6
+--- !u!58 &1658241164
+CircleCollider2D:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 5894720, guid: 0eddb3faeff952a48bf131fb8945f554,
+    type: 2}
+  m_PrefabInternal: {fileID: 605900296}
+  m_GameObject: {fileID: 1658241157}
+  m_Enabled: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Radius: .5
+  m_Center: {x: 0, y: 0}
 --- !u!1 &1663466873
 GameObject:
   m_ObjectHideFlags: 0
@@ -7219,6 +7357,33 @@ SpriteRenderer:
   m_SortingOrder: -6
   m_Sprite: {fileID: 21300000, guid: 464da75317949364bb694c75e5a7d861, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
+--- !u!1 &1889636039
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 136510, guid: 718587265f9b1ed469cdd634bb99048e, type: 2}
+  m_PrefabInternal: {fileID: 972184391}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 1889636040}
+  m_Layer: 0
+  m_Name: 2
+  m_TagString: FlyingSpawn
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1889636040
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 436510, guid: 718587265f9b1ed469cdd634bb99048e, type: 2}
+  m_PrefabInternal: {fileID: 972184391}
+  m_GameObject: {fileID: 1889636039}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -4.48999977, y: -1.51999998, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 344906794}
+  m_RootOrder: 1
 --- !u!1 &1897253041
 GameObject:
   m_ObjectHideFlags: 0
@@ -7946,9 +8111,10 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 67199372}
-  - {fileID: 1107972657}
+  - {fileID: 362416227}
   - {fileID: 1761440273}
   - {fileID: 1117227861}
+  - {fileID: 344906794}
   m_Father: {fileID: 0}
   m_RootOrder: 7
 --- !u!1 &2028537470

@@ -30,7 +30,4 @@ public class TimeEffect : MonoBehaviour {
 			Destroy (gameObject);
 		}
 	}
-
-	public void setText(float number) {
-	}
 }
