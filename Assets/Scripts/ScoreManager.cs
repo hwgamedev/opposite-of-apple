@@ -22,6 +22,6 @@ public class ScoreManager : MonoBehaviour {
 	
 	// Update is called once per frame
 	void Update () {
-		display.text = "Score: 1" + score;
+		display.text = "Score: " + score;
 	}
 }
