@@ -77,7 +77,7 @@ MonoBehaviour:
   chunk5: {fileID: 185036, guid: da35f4cba18e1ad44a40b84e59982fa0, type: 2}
   chunk6: {fileID: 112072, guid: d449ca7ddf9a4164cb65f7cfdd080b73, type: 2}
   smash: {fileID: 8300000, guid: c2cf5a0e619cab34caf0a6a6e8ea1867, type: 3}
-  scoreChange: 2
+  scoreChange: 1
 --- !u!114 &11437204
 MonoBehaviour:
   m_ObjectHideFlags: 1
