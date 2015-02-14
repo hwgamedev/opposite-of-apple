@@ -25,12 +25,6 @@ public class AppleShoot : MonoBehaviour {
 	}
 
 	void OnMouseDown() {
-<<<<<<< HEAD
-=======
-
-		scoreManager.incScore (1);
-
->>>>>>> origin/master
 		scoreManager.incScore (scoreChange);
 
         GameObject applechunk1 = Instantiate(chunk1, transform.position, Quaternion.identity) as GameObject;
