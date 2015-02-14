@@ -30,33 +30,21 @@ public class AppleShoot : MonoBehaviour {
 		scoreManager.incScore (scoreChange);
 
         GameObject applechunk1 = Instantiate(chunk1, transform.position, Quaternion.identity) as GameObject;
-        applechunk1.rigidbody2D.AddForce(Vector3.right * Random.Range(-50, 50));
-        applechunk1.rigidbody2D.AddForce(Vector3.up * Random.Range(100, 400));
         forceApply(applechunk1);
 
 		GameObject applechunk2 = Instantiate(chunk2, transform.position, Quaternion.identity) as GameObject;
-        applechunk2.rigidbody2D.AddForce(Vector3.right * Random.Range(-50, 50));
-        applechunk2.rigidbody2D.AddForce(Vector3.up * Random.Range(100, 400));
         forceApply(applechunk2);
 
 		GameObject applechunk3 = Instantiate(chunk3, transform.position, Quaternion.identity) as GameObject;
-        applechunk3.rigidbody2D.AddForce(Vector3.right * Random.Range(-50, 50));
-        applechunk3.rigidbody2D.AddForce(Vector3.up * Random.Range(100, 400));
         forceApply(applechunk3);
 
 		GameObject applechunk4 = Instantiate(chunk4, transform.position, Quaternion.identity) as GameObject;
-        applechunk4.rigidbody2D.AddForce(Vector3.right * Random.Range(-50, 50));
-        applechunk4.rigidbody2D.AddForce(Vector3.up * Random.Range(100, 400));
         forceApply(applechunk4);
 
 		GameObject applechunk5 = Instantiate(chunk5, transform.position, Quaternion.identity) as GameObject;
-        applechunk5.rigidbody2D.AddForce(Vector3.right * Random.Range(-50, 50));
-        applechunk5.rigidbody2D.AddForce(Vector3.up * Random.Range(100, 400));
         forceApply(applechunk5);
 
 		GameObject applechunk6 = Instantiate(chunk6, transform.position, Quaternion.identity) as GameObject;
-        applechunk6.rigidbody2D.AddForce(Vector3.right * Random.Range(-50, 50));
-        applechunk6.rigidbody2D.AddForce(Vector3.up * Random.Range(100, 400));
         forceApply(applechunk6);
 
 		Destroy (gameObject);
@@ -65,7 +53,7 @@ public class AppleShoot : MonoBehaviour {
 
     void forceApply(GameObject x)
     {
-        x.rigidbody2D.AddForce(Vector3.right * Random.Range(-50, 50));
-        x.rigidbody2D.AddForce(Vector3.up * Random.Range(100, 400));
+        x.rigidbody2D.AddForce(Vector3.right * Random.Range(-25, 25));
+        x.rigidbody2D.AddForce(Vector3.up * Random.Range(50, 200));
     }
 }
