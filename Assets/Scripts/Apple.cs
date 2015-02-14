@@ -15,10 +15,13 @@ public class Apple : MonoBehaviour {
 	bool isPoppedUp = false;
 	bool isBackDown = false;
 
+	//difficulty multiplier update
+	private TimeManager tm;
+
 
 
 	void Start () {
-	
+		tm = GameObject.FindGameObjectWithTag ("TimeManager").GetComponent<TimeManager> ();
 	}
 
 	void Update () {
@@ -28,7 +31,7 @@ public class Apple : MonoBehaviour {
 			PopUp ();
 		}else
 			{
-				popUpTime -= Time.deltaTime;
+				popUpTime -= Time.deltaTime*tm.getDifficultyModifier();
 			}
 		if (popUpTime <= 0 && !isBackDown)
 		{

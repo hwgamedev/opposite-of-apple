@@ -9,11 +9,13 @@ public class AppleShoot : MonoBehaviour {
     public GameObject chunk5;
     public GameObject chunk6;
 
-	public ScoreManager scoreManager;
+	private ScoreManager scoreManager;
+
 
 	// Use this for initialization
 	void Start () {
 		scoreManager = GameObject.FindWithTag ("ScoreManager").GetComponent<ScoreManager>();
+		rigidbody2D.AddTorque (300);
 	}
 	
 	// Update is called once per frame
