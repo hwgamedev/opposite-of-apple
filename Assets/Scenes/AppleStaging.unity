@@ -2297,7 +2297,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 437206, guid: 0eddb3faeff952a48bf131fb8945f554, type: 2}
       propertyPath: m_RootOrder
-      value: 7
+      value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 21237206, guid: 0eddb3faeff952a48bf131fb8945f554, type: 2}
       propertyPath: m_SortingLayerID
@@ -2692,7 +2692,7 @@ MonoBehaviour:
   chunk5: {fileID: 185036, guid: da35f4cba18e1ad44a40b84e59982fa0, type: 2}
   chunk6: {fileID: 112072, guid: d449ca7ddf9a4164cb65f7cfdd080b73, type: 2}
   smash: {fileID: 8300000, guid: c2cf5a0e619cab34caf0a6a6e8ea1867, type: 3}
-  scoreChange: 0
+  scoreChange: 1
 --- !u!212 &650602367
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -3545,7 +3545,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 437206, guid: 0eddb3faeff952a48bf131fb8945f554, type: 2}
       propertyPath: m_RootOrder
-      value: 5
+      value: 4
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 0eddb3faeff952a48bf131fb8945f554, type: 2}
@@ -4808,7 +4808,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2a2862cfc0fe48b419911bf428a4e172, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  difficultyIncreaseTime: 5
+  difficultyIncreaseTime: 2
   difficultyIncrease: .5
   timeMultiplier: 10
   timeEffectTemplate: {fileID: 110300, guid: 68f94ae4f0a98484fadf9e87cd86c420, type: 2}
@@ -5210,6 +5210,10 @@ Prefab:
     - target: {fileID: 22408018, guid: 3bf5ae6c7323e79488f9fc3828eb12b1, type: 2}
       propertyPath: m_AnchorMax.y
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 11408018, guid: 3bf5ae6c7323e79488f9fc3828eb12b1, type: 2}
+      propertyPath: difficultyIncreaseTime
+      value: 2
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 3bf5ae6c7323e79488f9fc3828eb12b1, type: 2}
@@ -6507,7 +6511,7 @@ MonoBehaviour:
   chunk5: {fileID: 185036, guid: da35f4cba18e1ad44a40b84e59982fa0, type: 2}
   chunk6: {fileID: 112072, guid: d449ca7ddf9a4164cb65f7cfdd080b73, type: 2}
   smash: {fileID: 8300000, guid: c2cf5a0e619cab34caf0a6a6e8ea1867, type: 3}
-  scoreChange: 2
+  scoreChange: 1
 --- !u!212 &1627776204
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -6828,7 +6832,7 @@ MonoBehaviour:
   chunk5: {fileID: 185036, guid: da35f4cba18e1ad44a40b84e59982fa0, type: 2}
   chunk6: {fileID: 112072, guid: d449ca7ddf9a4164cb65f7cfdd080b73, type: 2}
   smash: {fileID: 8300000, guid: c2cf5a0e619cab34caf0a6a6e8ea1867, type: 3}
-  scoreChange: 0
+  scoreChange: 1
 --- !u!212 &1658241162
 SpriteRenderer:
   m_ObjectHideFlags: 0
