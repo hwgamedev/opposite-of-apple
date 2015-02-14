@@ -9,7 +9,6 @@ GameObject:
   m_Component:
   - 4: {fileID: 487930}
   - 212: {fileID: 21287930}
-  - 58: {fileID: 5887930}
   - 114: {fileID: 11487930}
   - 114: {fileID: 11415624}
   - 50: {fileID: 5015624}
@@ -47,17 +46,6 @@ Rigidbody2D:
   m_Interpolate: 0
   m_SleepingMode: 1
   m_CollisionDetection: 0
---- !u!58 &5887930
-CircleCollider2D:
-  m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 187930}
-  m_Enabled: 1
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Radius: .215000004
-  m_Center: {x: 0, y: 0}
 --- !u!114 &11415624
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -109,7 +97,7 @@ SpriteRenderer:
   m_UseLightProbes: 0
   m_LightProbeAnchor: {fileID: 0}
   m_ScaleInLightmap: 1
-  m_SortingLayerID: 4097511931
+  m_SortingLayerID: 454722499
   m_SortingOrder: 0
   m_Sprite: {fileID: 21300000, guid: 1355a0769c0f65546b215841d4105b25, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}

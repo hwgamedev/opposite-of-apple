@@ -13,7 +13,7 @@ GameObject:
   - 114: {fileID: 11437204}
   - 114: {fileID: 11437206}
   - 50: {fileID: 5037206}
-  m_Layer: 0
+  m_Layer: 15
   m_Name: FlyingApple
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -27,7 +27,7 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 137206}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -2.67000008, y: .360000014, z: 0}
+  m_LocalPosition: {x: -4.07000017, y: -.0500000007, z: .0599999987}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
@@ -87,8 +87,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 691b5cef86592294fb65214220c95c17, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  verticalForce: 150
-  horizontalForce: 300
+  verticalForce: 200
+  horizontalForce: 350
 --- !u!212 &21237206
 SpriteRenderer:
   m_ObjectHideFlags: 1
@@ -107,7 +107,7 @@ SpriteRenderer:
   m_UseLightProbes: 0
   m_LightProbeAnchor: {fileID: 0}
   m_ScaleInLightmap: 1
-  m_SortingLayerID: 0
+  m_SortingLayerID: 3714774873
   m_SortingOrder: 0
   m_Sprite: {fileID: 21300000, guid: 1355a0769c0f65546b215841d4105b25, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}

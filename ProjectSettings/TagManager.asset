@@ -48,7 +48,15 @@ TagManager:
     userID: 1
     uniqueID: 4216293761
     locked: 0
+  - name: PopUpObjects
+    userID: 3
+    uniqueID: 454722499
+    locked: 0
   - name: foreground
     userID: 2
     uniqueID: 4097511931
+    locked: 0
+  - name: FlyObjects
+    userID: 4
+    uniqueID: 3714774873
     locked: 0
