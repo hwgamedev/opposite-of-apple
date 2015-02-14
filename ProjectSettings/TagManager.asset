@@ -20,9 +20,11 @@ TagManager:
   User Layer 10: 
   User Layer 11: 
   User Layer 12: 
+  User Layer 12: SpawnPoints
   User Layer 13: 
   User Layer 14: 
   User Layer 15: 
+  User Layer 15: FlyObjects
   User Layer 16: 
   User Layer 17: 
   User Layer 18: 
@@ -43,4 +45,12 @@ TagManager:
   - name: Default
     userID: 0
     uniqueID: 0
+    locked: 0
+  - name: background
+    userID: 1
+    uniqueID: 4216293761
+    locked: 0
+  - name: foreground
+    userID: 2
+    uniqueID: 4097511931
     locked: 0
