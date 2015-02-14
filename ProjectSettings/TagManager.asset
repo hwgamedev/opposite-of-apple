@@ -5,7 +5,8 @@ TagManager:
   tags:
   - ScoreManager
   - TimeManager
-  - SpawnPoint
+  - SpawnPoint2
+  - SpawnPoint1
   - 
   Builtin Layer 0: Default
   Builtin Layer 1: TransparentFX
@@ -20,11 +21,9 @@ TagManager:
   User Layer 10: 
   User Layer 11: 
   User Layer 12: 
-  User Layer 12: SpawnPoints
   User Layer 13: 
   User Layer 14: 
   User Layer 15: 
-  User Layer 15: FlyObjects
   User Layer 16: 
   User Layer 17: 
   User Layer 18: 
@@ -50,13 +49,21 @@ TagManager:
     userID: 1
     uniqueID: 4216293761
     locked: 0
-  - name: PopUpObjects
+  - name: PopUpObjects1
     userID: 3
     uniqueID: 454722499
     locked: 0
-  - name: foreground
+  - name: Foreground1
     userID: 2
     uniqueID: 4097511931
+    locked: 0
+  - name: PopUpObjects2
+    userID: 5
+    uniqueID: 4275055173
+    locked: 0
+  - name: Foreground2
+    userID: 6
+    uniqueID: 1995526195
     locked: 0
   - name: FlyObjects
     userID: 4

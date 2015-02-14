@@ -1,69 +1,69 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
---- !u!1 &145916
+--- !u!1 &187930
 GameObject:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   serializedVersion: 4
   m_Component:
-  - 4: {fileID: 445916}
-  - 212: {fileID: 21245916}
-  - 50: {fileID: 5005316}
-  - 58: {fileID: 5875696}
-  - 114: {fileID: 11430782}
-  - 114: {fileID: 11419570}
+  - 4: {fileID: 487930}
+  - 212: {fileID: 21287930}
+  - 114: {fileID: 11487930}
+  - 114: {fileID: 11415624}
+  - 50: {fileID: 5015624}
+  - 58: {fileID: 5850766}
   m_Layer: 0
-  m_Name: Corn
+  m_Name: Apple1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!4 &445916
+--- !u!4 &487930
 Transform:
   m_ObjectHideFlags: 1
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 145916}
+  m_GameObject: {fileID: 187930}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -6.91156626, y: -3.77535009, z: 0}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 0
---- !u!50 &5005316
+--- !u!50 &5015624
 Rigidbody2D:
   m_ObjectHideFlags: 1
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 145916}
+  m_GameObject: {fileID: 187930}
   m_Mass: 1
   m_LinearDrag: 0
   m_AngularDrag: .0500000007
-  m_GravityScale: .200000003
+  m_GravityScale: 1.5
   m_FixedAngle: 0
   m_IsKinematic: 0
   m_Interpolate: 0
   m_SleepingMode: 1
   m_CollisionDetection: 0
---- !u!58 &5875696
+--- !u!58 &5850766
 CircleCollider2D:
   m_ObjectHideFlags: 1
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 145916}
+  m_GameObject: {fileID: 187930}
   m_Enabled: 1
   m_Material: {fileID: 0}
   m_IsTrigger: 0
   m_Radius: .5
   m_Center: {x: 0, y: 0}
---- !u!114 &11419570
+--- !u!114 &11415624
 MonoBehaviour:
   m_ObjectHideFlags: 1
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 145916}
+  m_GameObject: {fileID: 187930}
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 84a3284f0228032488a883e27cd39542, type: 3}
@@ -73,30 +73,30 @@ MonoBehaviour:
   distanceToOrigin: 0
   popUpTime: 3
   verticalSpeed: 3
---- !u!114 &11430782
+--- !u!114 &11487930
 MonoBehaviour:
   m_ObjectHideFlags: 1
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 145916}
+  m_GameObject: {fileID: 187930}
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 2e7db823742ea6e409109e611e77c05e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  chunk1: {fileID: 158188, guid: 3e10fa439288b5546bb3d62b277f61ec, type: 2}
-  chunk2: {fileID: 193774, guid: ce297e39d68926f4da577a363f7e65d7, type: 2}
-  chunk3: {fileID: 193746, guid: 28f944840de87cb42ae254f3d8a70849, type: 2}
-  chunk4: {fileID: 137214, guid: e103c883a057e8847b5208f4959f89c2, type: 2}
-  chunk5: {fileID: 158712, guid: 2ada6865f1f089642bfd198d58250e5a, type: 2}
-  chunk6: {fileID: 134274, guid: c5f5faa4c30247e46be23ebd274eee62, type: 2}
-  scoreChange: -1
---- !u!212 &21245916
+  chunk1: {fileID: 127046, guid: 9700d8322682d2140a0a733f5b88037d, type: 2}
+  chunk2: {fileID: 192676, guid: bf230824329fcd94fa6d62c52582612e, type: 2}
+  chunk3: {fileID: 165386, guid: 4057cd0a0ab475d42a7b0cb02f538344, type: 2}
+  chunk4: {fileID: 134794, guid: 227d5ec6c6b8b1747bb5d8681b520214, type: 2}
+  chunk5: {fileID: 185036, guid: da35f4cba18e1ad44a40b84e59982fa0, type: 2}
+  chunk6: {fileID: 112072, guid: d449ca7ddf9a4164cb65f7cfdd080b73, type: 2}
+  scoreChange: 2
+--- !u!212 &21287930
 SpriteRenderer:
   m_ObjectHideFlags: 1
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 145916}
+  m_GameObject: {fileID: 187930}
   m_Enabled: 1
   m_CastShadows: 0
   m_ReceiveShadows: 0
@@ -109,9 +109,9 @@ SpriteRenderer:
   m_UseLightProbes: 0
   m_LightProbeAnchor: {fileID: 0}
   m_ScaleInLightmap: 1
-  m_SortingLayerID: 4097511931
+  m_SortingLayerID: 454722499
   m_SortingOrder: 0
-  m_Sprite: {fileID: 21300000, guid: c0a5fe5b6de4a7649835ff3bbda5fe71, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 1355a0769c0f65546b215841d4105b25, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
 --- !u!1001 &100100000
 Prefab:
@@ -122,6 +122,6 @@ Prefab:
     m_Modifications: []
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 0}
-  m_RootGameObject: {fileID: 145916}
+  m_RootGameObject: {fileID: 187930}
   m_IsPrefabParent: 1
   m_IsExploded: 1

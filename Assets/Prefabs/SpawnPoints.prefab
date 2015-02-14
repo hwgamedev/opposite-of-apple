@@ -11,7 +11,7 @@ GameObject:
   - 212: {fileID: 21207132}
   m_Layer: 12
   m_Name: bush-big
-  m_TagString: SpawnPoint
+  m_TagString: SpawnPoint2
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -27,7 +27,7 @@ GameObject:
   - 212: {fileID: 21207134}
   m_Layer: 12
   m_Name: rock
-  m_TagString: SpawnPoint
+  m_TagString: SpawnPoint2
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -43,7 +43,7 @@ GameObject:
   - 212: {fileID: 21207136}
   m_Layer: 12
   m_Name: bush
-  m_TagString: SpawnPoint
+  m_TagString: SpawnPoint2
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -59,7 +59,7 @@ GameObject:
   - 212: {fileID: 21207138}
   m_Layer: 12
   m_Name: bush-big
-  m_TagString: SpawnPoint
+  m_TagString: SpawnPoint2
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -75,7 +75,7 @@ GameObject:
   - 212: {fileID: 21207140}
   m_Layer: 12
   m_Name: bush
-  m_TagString: SpawnPoint
+  m_TagString: SpawnPoint2
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -91,7 +91,7 @@ GameObject:
   - 212: {fileID: 21207142}
   m_Layer: 12
   m_Name: rock
-  m_TagString: SpawnPoint
+  m_TagString: SpawnPoint2
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -107,7 +107,7 @@ GameObject:
   - 212: {fileID: 21207144}
   m_Layer: 12
   m_Name: mushroomRed
-  m_TagString: SpawnPoint
+  m_TagString: SpawnPoint2
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -123,7 +123,7 @@ GameObject:
   - 212: {fileID: 21207146}
   m_Layer: 12
   m_Name: rock
-  m_TagString: SpawnPoint
+  m_TagString: SpawnPoint2
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -139,7 +139,7 @@ GameObject:
   - 212: {fileID: 21207148}
   m_Layer: 12
   m_Name: mushroomBrown
-  m_TagString: SpawnPoint
+  m_TagString: SpawnPoint2
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -153,7 +153,7 @@ GameObject:
   m_Component:
   - 4: {fileID: 407150}
   m_Layer: 0
-  m_Name: 1
+  m_Name: 2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -170,7 +170,7 @@ GameObject:
   - 212: {fileID: 21207150}
   m_Layer: 12
   m_Name: rock
-  m_TagString: SpawnPoint
+  m_TagString: SpawnPoint2
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -186,7 +186,7 @@ GameObject:
   - 212: {fileID: 21207152}
   m_Layer: 12
   m_Name: mushroomRed
-  m_TagString: SpawnPoint
+  m_TagString: SpawnPoint2
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -202,7 +202,7 @@ GameObject:
   - 212: {fileID: 21207154}
   m_Layer: 12
   m_Name: mushroomBrown
-  m_TagString: SpawnPoint
+  m_TagString: SpawnPoint2
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -218,6 +218,22 @@ GameObject:
   - 212: {fileID: 21207156}
   m_Layer: 12
   m_Name: rock
+  m_TagString: SpawnPoint2
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &165678
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 465678}
+  - 212: {fileID: 21265678}
+  m_Layer: 12
+  m_Name: bush
   m_TagString: SpawnPoint
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -249,7 +265,7 @@ GameObject:
   - 212: {fileID: 21276480}
   m_Layer: 12
   m_Name: rock
-  m_TagString: SpawnPoint
+  m_TagString: SpawnPoint1
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -265,7 +281,7 @@ GameObject:
   - 212: {fileID: 21276482}
   m_Layer: 12
   m_Name: rock
-  m_TagString: SpawnPoint
+  m_TagString: SpawnPoint1
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -281,7 +297,7 @@ GameObject:
   - 212: {fileID: 21276484}
   m_Layer: 12
   m_Name: rock
-  m_TagString: SpawnPoint
+  m_TagString: SpawnPoint1
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -297,7 +313,7 @@ GameObject:
   - 212: {fileID: 21276486}
   m_Layer: 12
   m_Name: bush
-  m_TagString: SpawnPoint
+  m_TagString: SpawnPoint1
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -313,7 +329,7 @@ GameObject:
   - 212: {fileID: 21276488}
   m_Layer: 12
   m_Name: bush-big
-  m_TagString: SpawnPoint
+  m_TagString: SpawnPoint1
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -329,7 +345,7 @@ GameObject:
   - 212: {fileID: 21276490}
   m_Layer: 12
   m_Name: mushroomBrown
-  m_TagString: SpawnPoint
+  m_TagString: SpawnPoint1
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -345,7 +361,7 @@ GameObject:
   - 212: {fileID: 21276492}
   m_Layer: 12
   m_Name: mushroomRed
-  m_TagString: SpawnPoint
+  m_TagString: SpawnPoint1
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -359,7 +375,7 @@ GameObject:
   m_Component:
   - 4: {fileID: 476492}
   m_Layer: 0
-  m_Name: 2
+  m_Name: 1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -376,7 +392,7 @@ GameObject:
   - 212: {fileID: 21276494}
   m_Layer: 12
   m_Name: rock
-  m_TagString: SpawnPoint
+  m_TagString: SpawnPoint1
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -392,7 +408,7 @@ GameObject:
   - 212: {fileID: 21276496}
   m_Layer: 12
   m_Name: rock
-  m_TagString: SpawnPoint
+  m_TagString: SpawnPoint1
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -408,7 +424,7 @@ GameObject:
   - 212: {fileID: 21276498}
   m_Layer: 12
   m_Name: bush
-  m_TagString: SpawnPoint
+  m_TagString: SpawnPoint1
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -424,7 +440,7 @@ GameObject:
   - 212: {fileID: 21276500}
   m_Layer: 12
   m_Name: mushroomBrown
-  m_TagString: SpawnPoint
+  m_TagString: SpawnPoint1
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -440,7 +456,7 @@ GameObject:
   - 212: {fileID: 21276502}
   m_Layer: 12
   m_Name: bush-big
-  m_TagString: SpawnPoint
+  m_TagString: SpawnPoint1
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -456,7 +472,7 @@ GameObject:
   - 212: {fileID: 21276504}
   m_Layer: 12
   m_Name: mushroomRed
-  m_TagString: SpawnPoint
+  m_TagString: SpawnPoint1
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -593,7 +609,7 @@ Transform:
   - {fileID: 407154}
   - {fileID: 407136}
   m_Father: {fileID: 476476}
-  m_RootOrder: 0
+  m_RootOrder: 1
 --- !u!4 &407152
 Transform:
   m_ObjectHideFlags: 1
@@ -642,6 +658,18 @@ Transform:
   m_Children: []
   m_Father: {fileID: 407150}
   m_RootOrder: 0
+--- !u!4 &465678
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 165678}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 1.94000006, y: -1.65999997, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 476476}
+  m_RootOrder: 0
 --- !u!4 &476476
 Transform:
   m_ObjectHideFlags: 1
@@ -652,6 +680,7 @@ Transform:
   m_LocalPosition: {x: .295000076, y: -.150000006, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
+  - {fileID: 465678}
   - {fileID: 407150}
   - {fileID: 476492}
   m_Father: {fileID: 0}
@@ -764,7 +793,7 @@ Transform:
   - {fileID: 476504}
   - {fileID: 476484}
   m_Father: {fileID: 476476}
-  m_RootOrder: 1
+  m_RootOrder: 2
 --- !u!4 &476494
 Transform:
   m_ObjectHideFlags: 1
@@ -855,7 +884,7 @@ SpriteRenderer:
   m_UseLightProbes: 0
   m_LightProbeAnchor: {fileID: 0}
   m_ScaleInLightmap: 1
-  m_SortingLayerID: 4097511931
+  m_SortingLayerID: 1995526195
   m_SortingOrder: 0
   m_Sprite: {fileID: 21300000, guid: 3819ff42847ff2949953f6484488c4b4, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -877,7 +906,7 @@ SpriteRenderer:
   m_UseLightProbes: 0
   m_LightProbeAnchor: {fileID: 0}
   m_ScaleInLightmap: 1
-  m_SortingLayerID: 4097511931
+  m_SortingLayerID: 1995526195
   m_SortingOrder: 0
   m_Sprite: {fileID: 21300000, guid: 93b9a42771be0714b993857205ddc111, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -899,7 +928,7 @@ SpriteRenderer:
   m_UseLightProbes: 0
   m_LightProbeAnchor: {fileID: 0}
   m_ScaleInLightmap: 1
-  m_SortingLayerID: 4097511931
+  m_SortingLayerID: 1995526195
   m_SortingOrder: 0
   m_Sprite: {fileID: 21300000, guid: a4fb5ec51f96f724f98bfa22c230c525, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -921,7 +950,7 @@ SpriteRenderer:
   m_UseLightProbes: 0
   m_LightProbeAnchor: {fileID: 0}
   m_ScaleInLightmap: 1
-  m_SortingLayerID: 4097511931
+  m_SortingLayerID: 1995526195
   m_SortingOrder: 0
   m_Sprite: {fileID: 21300000, guid: 3819ff42847ff2949953f6484488c4b4, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -943,7 +972,7 @@ SpriteRenderer:
   m_UseLightProbes: 0
   m_LightProbeAnchor: {fileID: 0}
   m_ScaleInLightmap: 1
-  m_SortingLayerID: 4097511931
+  m_SortingLayerID: 1995526195
   m_SortingOrder: 0
   m_Sprite: {fileID: 21300000, guid: a4fb5ec51f96f724f98bfa22c230c525, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -965,7 +994,7 @@ SpriteRenderer:
   m_UseLightProbes: 0
   m_LightProbeAnchor: {fileID: 0}
   m_ScaleInLightmap: 1
-  m_SortingLayerID: 4097511931
+  m_SortingLayerID: 1995526195
   m_SortingOrder: 0
   m_Sprite: {fileID: 21300000, guid: 93b9a42771be0714b993857205ddc111, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -987,7 +1016,7 @@ SpriteRenderer:
   m_UseLightProbes: 0
   m_LightProbeAnchor: {fileID: 0}
   m_ScaleInLightmap: 1
-  m_SortingLayerID: 4097511931
+  m_SortingLayerID: 1995526195
   m_SortingOrder: 0
   m_Sprite: {fileID: 21300000, guid: ae7f2fb863740b64da5c5635fd6350e9, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -1009,7 +1038,7 @@ SpriteRenderer:
   m_UseLightProbes: 0
   m_LightProbeAnchor: {fileID: 0}
   m_ScaleInLightmap: 1
-  m_SortingLayerID: 4097511931
+  m_SortingLayerID: 1995526195
   m_SortingOrder: 0
   m_Sprite: {fileID: 21300000, guid: 93b9a42771be0714b993857205ddc111, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -1031,7 +1060,7 @@ SpriteRenderer:
   m_UseLightProbes: 0
   m_LightProbeAnchor: {fileID: 0}
   m_ScaleInLightmap: 1
-  m_SortingLayerID: 4097511931
+  m_SortingLayerID: 1995526195
   m_SortingOrder: 0
   m_Sprite: {fileID: 21300000, guid: e7a4e4dd8e85d484ea716487765c5a21, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -1053,7 +1082,7 @@ SpriteRenderer:
   m_UseLightProbes: 0
   m_LightProbeAnchor: {fileID: 0}
   m_ScaleInLightmap: 1
-  m_SortingLayerID: 4097511931
+  m_SortingLayerID: 1995526195
   m_SortingOrder: 0
   m_Sprite: {fileID: 21300000, guid: 93b9a42771be0714b993857205ddc111, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -1075,7 +1104,7 @@ SpriteRenderer:
   m_UseLightProbes: 0
   m_LightProbeAnchor: {fileID: 0}
   m_ScaleInLightmap: 1
-  m_SortingLayerID: 4097511931
+  m_SortingLayerID: 1995526195
   m_SortingOrder: 0
   m_Sprite: {fileID: 21300000, guid: ae7f2fb863740b64da5c5635fd6350e9, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -1097,7 +1126,7 @@ SpriteRenderer:
   m_UseLightProbes: 0
   m_LightProbeAnchor: {fileID: 0}
   m_ScaleInLightmap: 1
-  m_SortingLayerID: 4097511931
+  m_SortingLayerID: 1995526195
   m_SortingOrder: 0
   m_Sprite: {fileID: 21300000, guid: e7a4e4dd8e85d484ea716487765c5a21, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -1119,9 +1148,31 @@ SpriteRenderer:
   m_UseLightProbes: 0
   m_LightProbeAnchor: {fileID: 0}
   m_ScaleInLightmap: 1
-  m_SortingLayerID: 4097511931
+  m_SortingLayerID: 1995526195
   m_SortingOrder: 0
   m_Sprite: {fileID: 21300000, guid: 93b9a42771be0714b993857205ddc111, type: 3}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+--- !u!212 &21265678
+SpriteRenderer:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 165678}
+  m_Enabled: 1
+  m_CastShadows: 0
+  m_ReceiveShadows: 0
+  m_LightmapIndex: 255
+  m_LightmapTilingOffset: {x: 1, y: 1, z: 0, w: 0}
+  m_Materials:
+  - {fileID: 10754, guid: 0000000000000000e000000000000000, type: 0}
+  m_SubsetIndices: 
+  m_StaticBatchRoot: {fileID: 0}
+  m_UseLightProbes: 0
+  m_LightProbeAnchor: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_SortingLayerID: 4097511931
+  m_SortingOrder: 0
+  m_Sprite: {fileID: 21300000, guid: a4fb5ec51f96f724f98bfa22c230c525, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
 --- !u!212 &21276480
 SpriteRenderer:
@@ -1164,7 +1215,7 @@ SpriteRenderer:
   m_LightProbeAnchor: {fileID: 0}
   m_ScaleInLightmap: 1
   m_SortingLayerID: 4097511931
-  m_SortingOrder: 0
+  m_SortingOrder: -1
   m_Sprite: {fileID: 21300000, guid: 93b9a42771be0714b993857205ddc111, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
 --- !u!212 &21276484
@@ -1230,7 +1281,7 @@ SpriteRenderer:
   m_LightProbeAnchor: {fileID: 0}
   m_ScaleInLightmap: 1
   m_SortingLayerID: 4097511931
-  m_SortingOrder: 0
+  m_SortingOrder: -1
   m_Sprite: {fileID: 21300000, guid: 3819ff42847ff2949953f6484488c4b4, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
 --- !u!212 &21276490
