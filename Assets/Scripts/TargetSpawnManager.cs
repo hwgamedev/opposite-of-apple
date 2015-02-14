@@ -21,20 +21,26 @@ public class TargetSpawnManager : MonoBehaviour {
 	private GameObject[] spawnPoints1;
 	private GameObject[] spawnPoints2;
 	private GameObject[] spawnPoints;
+	private GameObject[] flyingSpawnPoints;
 	private float popUpCountDown;
+	private float flyingCountDown;
 
 	// Use this for initialization
 	void Start () {
 		spawnPoints1 = GameObject.FindGameObjectsWithTag ("SpawnPoint1");
 		spawnPoints2 = GameObject.FindGameObjectsWithTag ("SpawnPoint2");
+		flyingSpawnPoints = GameObject.FindGameObjectsWithTag ("FlyingSpawn");
+
 		//print ("No of spawnPoints: " + spawnPoints.Length);
 		popUpCountDown = popUpSpawnInterval;
+		flyingCountDown = flyingSpawnInterval;
 	}
 	
 	// Update is called once per frame
 	void Update () {
 	
 		PopUpSpawn ();
+		FlyingSpawn ();
 	}
 
 	void PopUpSpawn ()
@@ -70,6 +76,31 @@ public class TargetSpawnManager : MonoBehaviour {
                 default:
                     break;
             }
+			
+		}
+	}
+
+	void FlyingSpawn ()
+	{
+		flyingCountDown -= Time.deltaTime;
+		
+		if (flyingCountDown <= 0) {
+			flyingCountDown = flyingSpawnInterval;
+			int spawnPointNo = Random.Range (0,flyingSpawnPoints.Length);
+			switch(Random.Range(1,5))
+			{
+			case 1:
+				GameObject cornClone = (GameObject)Instantiate(flyingCornTemplate, flyingSpawnPoints[spawnPointNo].transform.position, Quaternion.identity);
+				break;
+			case 2:
+				GameObject burgerClone = (GameObject)Instantiate(flyingBurgerTemplate, flyingSpawnPoints[spawnPointNo].transform.position, Quaternion.identity);
+				break;
+			case 3: case 4: case 5:
+				GameObject appleClone = (GameObject)Instantiate(flyingAppleTemplate, flyingSpawnPoints[spawnPointNo].transform.position, Quaternion.identity);
+				break;
+			default:
+				break;
+			}
 			
 		}
 	}
