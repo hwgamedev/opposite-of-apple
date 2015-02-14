@@ -53,7 +53,7 @@ public class AppleShoot : MonoBehaviour {
 
     void forceApply(GameObject x)
     {
-        x.rigidbody2D.AddForce(Vector3.right * Random.Range(-50, 50));
-        x.rigidbody2D.AddForce(Vector3.up * Random.Range(100, 400));
+        x.rigidbody2D.AddForce(Vector3.right * Random.Range(-25, 25));
+        x.rigidbody2D.AddForce(Vector3.up * Random.Range(50, 200));
     }
 }
