@@ -7,8 +7,11 @@ TagManager:
   - TimeManager
   - SpawnPoint2
   - SpawnPoint1
-  - FlyingSpawn
+  - FlyingSpawnLeft
   - SpawnPoint
+  - FlyingSpawnRight
+  - 
+  - FlyingSpawn
   - 
   Builtin Layer 0: Default
   Builtin Layer 1: TransparentFX

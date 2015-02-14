@@ -21,6 +21,8 @@ public class TargetSpawnManager : MonoBehaviour {
 	private GameObject[] spawnPoints1;
 	private GameObject[] spawnPoints2;
 	private GameObject[] spawnPoints;
+	private GameObject[] flyingSpawnLeft;
+	private GameObject[] flyingSpawnRight;
 	private GameObject[] flyingSpawnPoints;
 	private float popUpCountDown;
 	private float flyingCountDown;
@@ -29,7 +31,8 @@ public class TargetSpawnManager : MonoBehaviour {
 	void Start () {
 		spawnPoints1 = GameObject.FindGameObjectsWithTag ("SpawnPoint1");
 		spawnPoints2 = GameObject.FindGameObjectsWithTag ("SpawnPoint2");
-		flyingSpawnPoints = GameObject.FindGameObjectsWithTag ("FlyingSpawn");
+		flyingSpawnRight = GameObject.FindGameObjectsWithTag ("FlyingSpawnRight");
+		flyingSpawnLeft = GameObject.FindGameObjectsWithTag ("FlyingSpawnLeft");
 
 		//print ("No of spawnPoints: " + spawnPoints.Length);
 		popUpCountDown = popUpSpawnInterval;
@@ -86,17 +89,35 @@ public class TargetSpawnManager : MonoBehaviour {
 		
 		if (flyingCountDown <= 0) {
 			flyingCountDown = flyingSpawnInterval;
+			int startSide=Random.Range(1,3);
+			bool startLeft;
+			if (startSide == 1)
+			{
+				flyingSpawnPoints = flyingSpawnLeft;
+				startLeft = true;
+			}else
+			{
+				flyingSpawnPoints = flyingSpawnRight;
+				startLeft = false;
+			}
 			int spawnPointNo = Random.Range (0,flyingSpawnPoints.Length);
+			FlyAcross fly;
 			switch(Random.Range(1,5))
 			{
 			case 1:
 				GameObject cornClone = (GameObject)Instantiate(flyingCornTemplate, flyingSpawnPoints[spawnPointNo].transform.position, Quaternion.identity);
+				fly = cornClone.GetComponent<FlyAcross>();
+				fly.startLeft = startLeft;
 				break;
 			case 2:
 				GameObject burgerClone = (GameObject)Instantiate(flyingBurgerTemplate, flyingSpawnPoints[spawnPointNo].transform.position, Quaternion.identity);
+				fly = burgerClone.GetComponent<FlyAcross>();
+				fly.startLeft = startLeft;
 				break;
 			case 3: case 4: case 5:
 				GameObject appleClone = (GameObject)Instantiate(flyingAppleTemplate, flyingSpawnPoints[spawnPointNo].transform.position, Quaternion.identity);
+				fly = appleClone.GetComponent<FlyAcross>();
+				fly.startLeft = startLeft;
 				break;
 			default:
 				break;
