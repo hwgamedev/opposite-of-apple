@@ -26,9 +26,9 @@ public class AppleShoot : MonoBehaviour {
 
 	void OnMouseDown() {
 
-		scoreManager.incScore (scoreChange);
+		scoreManager.incScore (1);
 
-        audio.Play();
+		scoreManager.incScore (scoreChange);
 
         GameObject applechunk1 = Instantiate(chunk1, transform.position, Quaternion.identity) as GameObject;
         forceApply(applechunk1);

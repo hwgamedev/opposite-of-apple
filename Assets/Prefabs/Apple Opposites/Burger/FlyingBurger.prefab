@@ -88,7 +88,6 @@ MonoBehaviour:
   chunk4: {fileID: 192280, guid: 7c79ecdcb19ef8a459b9e48eaf4fae49, type: 2}
   chunk5: {fileID: 121626, guid: c1bfcbe92f44d1c458ff82a2bff8e3b8, type: 2}
   chunk6: {fileID: 132460, guid: 1c71bd9040a518a4c8ce10726777e69f, type: 2}
-  smash: {fileID: 8300000, guid: 8565e9da5fe373e4e94f77a52e848d0d, type: 3}
   scoreChange: -2
 --- !u!212 &21262774
 SpriteRenderer:
