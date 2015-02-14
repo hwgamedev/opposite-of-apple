@@ -7,6 +7,7 @@ public class TimeManager : MonoBehaviour {
 	public float difficultyIncreaseTime;
 	public float difficultyIncrease;
 	public float timeMultiplier;
+	public GameObject timeEffectTemplate;
 
 	//count down to game over
 	public float gameTime;
@@ -50,6 +51,10 @@ public class TimeManager : MonoBehaviour {
 
 	public void incGameTime(float gameTimeIncrease) {
 		gameTime += gameTimeIncrease*timeMultiplier;
+		GameObject timeEffectClone = (GameObject)Instantiate(timeEffectTemplate, new Vector3(transform.position.x+40, transform.position.y-10, transform.position.z), Quaternion.identity);
+		timeEffectClone.transform.parent = transform;
+		timeEffectClone.GetComponent<TimeEffect> ().number = gameTimeIncrease * timeMultiplier;
+
 	}
 
 	public void reset() {
