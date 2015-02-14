@@ -10,6 +10,7 @@ public class AppleShoot : MonoBehaviour {
     public GameObject chunk6;
 
 	public ScoreManager scoreManager;
+    public int scoreChange;
 
 	// Use this for initialization
 	void Start () {
@@ -23,7 +24,7 @@ public class AppleShoot : MonoBehaviour {
 
 	void OnMouseDown() {
 
-		scoreManager.incScore (1);
+		scoreManager.incScore (scoreChange);
 
         GameObject applechunk1 = Instantiate(chunk1, transform.position, Quaternion.identity) as GameObject;
         forceApply(applechunk1);
