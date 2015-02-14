@@ -17,11 +17,11 @@ public class PopUpGoDown : MonoBehaviour {
 
 	//difficulty multiplier update
 	private TimeManager tm;
-
-
+	private float originY;
 
 	void Start () {
 		tm = GameObject.FindGameObjectWithTag ("TimeManager").GetComponent<TimeManager> ();
+		originY = rigidbody2D.position.y;
 	}
 
 	void Update () {
@@ -40,6 +40,12 @@ public class PopUpGoDown : MonoBehaviour {
 		if (isBackDown)
 		{
 			DestroyObject(gameObject);
+		}
+		if(isPoppedUp){
+			if (rigidbody2D.position.y < originY)
+			{
+				DestroyObject(gameObject);
+			}
 		}
 	
 	}
