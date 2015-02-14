@@ -66,7 +66,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 187930}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 702a6f7a83e66454ab3cac38505a083b, type: 3}
+  m_Script: {fileID: 11500000, guid: 84a3284f0228032488a883e27cd39542, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   popUpDistance: 50
