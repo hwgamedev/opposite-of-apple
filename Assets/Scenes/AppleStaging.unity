@@ -433,6 +433,14 @@ Prefab:
       propertyPath: m_TagString
       value: ScoreManager
       objectReference: {fileID: 0}
+    - target: {fileID: 175886, guid: 3bf5ae6c7323e79488f9fc3828eb12b1, type: 2}
+      propertyPath: m_TagString
+      value: Untagged
+      objectReference: {fileID: 0}
+    - target: {fileID: 175884, guid: 3bf5ae6c7323e79488f9fc3828eb12b1, type: 2}
+      propertyPath: m_TagString
+      value: ScoreManager
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 3bf5ae6c7323e79488f9fc3828eb12b1, type: 2}
   m_RootGameObject: {fileID: 1478005592}
