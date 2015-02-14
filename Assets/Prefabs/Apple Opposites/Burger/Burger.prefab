@@ -11,6 +11,7 @@ GameObject:
   - 212: {fileID: 21259088}
   - 50: {fileID: 5012822}
   - 58: {fileID: 5819168}
+  - 114: {fileID: 11472706}
   m_Layer: 0
   m_Name: Burger
   m_TagString: Untagged
@@ -56,6 +57,24 @@ CircleCollider2D:
   m_IsTrigger: 0
   m_Radius: .5
   m_Center: {x: 0, y: 0}
+--- !u!114 &11472706
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 159088}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2e7db823742ea6e409109e611e77c05e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  chunk1: {fileID: 187542, guid: 1e7a16c0b2bfcf64a9c8ae068ff447b0, type: 2}
+  chunk2: {fileID: 188534, guid: dd4463ca2ea14a043b60d8e3f3338a09, type: 2}
+  chunk3: {fileID: 195112, guid: 39583e980836b064f875878b063598b3, type: 2}
+  chunk4: {fileID: 192280, guid: 7c79ecdcb19ef8a459b9e48eaf4fae49, type: 2}
+  chunk5: {fileID: 121626, guid: c1bfcbe92f44d1c458ff82a2bff8e3b8, type: 2}
+  chunk6: {fileID: 132460, guid: 1c71bd9040a518a4c8ce10726777e69f, type: 2}
+  scoreChange: -2
 --- !u!212 &21259088
 SpriteRenderer:
   m_ObjectHideFlags: 1

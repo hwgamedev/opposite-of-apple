@@ -11,6 +11,7 @@ GameObject:
   - 212: {fileID: 21245916}
   - 50: {fileID: 5005316}
   - 58: {fileID: 5875696}
+  - 114: {fileID: 11430782}
   m_Layer: 0
   m_Name: Corn
   m_TagString: Untagged
@@ -56,6 +57,24 @@ CircleCollider2D:
   m_IsTrigger: 0
   m_Radius: .5
   m_Center: {x: 0, y: 0}
+--- !u!114 &11430782
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 145916}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2e7db823742ea6e409109e611e77c05e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  chunk1: {fileID: 158188, guid: 3e10fa439288b5546bb3d62b277f61ec, type: 2}
+  chunk2: {fileID: 193774, guid: ce297e39d68926f4da577a363f7e65d7, type: 2}
+  chunk3: {fileID: 193746, guid: 28f944840de87cb42ae254f3d8a70849, type: 2}
+  chunk4: {fileID: 137214, guid: e103c883a057e8847b5208f4959f89c2, type: 2}
+  chunk5: {fileID: 158712, guid: 2ada6865f1f089642bfd198d58250e5a, type: 2}
+  chunk6: {fileID: 134274, guid: c5f5faa4c30247e46be23ebd274eee62, type: 2}
+  scoreChange: -1
 --- !u!212 &21245916
 SpriteRenderer:
   m_ObjectHideFlags: 1
