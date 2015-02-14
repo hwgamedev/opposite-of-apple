@@ -6,6 +6,12 @@ public class TargetSpawnManager : MonoBehaviour {
 	public GameObject appleTemplate;
 	public GameObject flyingAppleTemplate;
 
+    public GameObject burgerTemplate;
+    public GameObject flyingBurgerTemplate;
+
+    public GameObject cornTemplate;
+    public GameObject flyingCornTemplate;
+
 
 	public float popUpSpawnInterval;
 	public float flyingSpawnInterval;
@@ -34,7 +40,21 @@ public class TargetSpawnManager : MonoBehaviour {
 		if (popUpCountDown <= 0) {
 			popUpCountDown = popUpSpawnInterval;
 			int spawnPointNo = Random.Range (0,spawnPoints.Length);
-			GameObject appleClone = (GameObject) Instantiate (appleTemplate, spawnPoints[spawnPointNo].transform.position, Quaternion.identity);
+            switch(Random.Range(1,5))
+            {
+                case 1:
+                    GameObject cornClone = (GameObject)Instantiate(cornTemplate, spawnPoints[spawnPointNo].transform.position, Quaternion.identity);
+                    break;
+                case 2:
+                    GameObject burgerClone = (GameObject)Instantiate(burgerTemplate, spawnPoints[spawnPointNo].transform.position, Quaternion.identity);
+                    break;
+                case 3: case 4: case 5:
+                    GameObject appleClone = (GameObject)Instantiate(appleTemplate, spawnPoints[spawnPointNo].transform.position, Quaternion.identity);
+                    break;
+                default:
+                    break;
+            }
+			
 		}
 	}
 }
