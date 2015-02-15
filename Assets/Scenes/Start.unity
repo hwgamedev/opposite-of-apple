@@ -2517,7 +2517,6 @@ GameObject:
   serializedVersion: 4
   m_Component:
   - 4: {fileID: 900366338}
-  - 114: {fileID: 900366339}
   - 82: {fileID: 900366340}
   m_Layer: 0
   m_Name: Background
@@ -2542,19 +2541,6 @@ Transform:
   - {fileID: 1836088885}
   m_Father: {fileID: 0}
   m_RootOrder: 1
---- !u!114 &900366339
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 11495926, guid: fbcd2ffb588ec604fb1d14229089f579,
-    type: 2}
-  m_PrefabInternal: {fileID: 2102205138}
-  m_GameObject: {fileID: 900366337}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 6085b843423695344900e5ee3c696120, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  scoreChange: -1
 --- !u!82 &900366340
 AudioSource:
   m_ObjectHideFlags: 0
@@ -5990,7 +5976,8 @@ Prefab:
       propertyPath: m_SortingLayerID
       value: 4216293761
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 11495926, guid: fbcd2ffb588ec604fb1d14229089f579, type: 2}
   m_ParentPrefab: {fileID: 100100000, guid: fbcd2ffb588ec604fb1d14229089f579, type: 2}
   m_RootGameObject: {fileID: 900366337}
   m_IsPrefabParent: 0
